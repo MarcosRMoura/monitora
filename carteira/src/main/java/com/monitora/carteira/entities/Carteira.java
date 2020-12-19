@@ -21,6 +21,11 @@ public class Carteira implements Serializable {
     public Carteira() {
     }
 
+    public Carteira(String nome, Double vlTotal) {
+        this.nome = nome;
+        this.vl_total = vlTotal;
+    }
+
     public Carteira(long id, String nome, Double vlTotal) {
         this.id = id;
         this.nome = nome;
